@@ -1,0 +1,73 @@
+.sidebar {
+    position:fixed;
+    z-index:5;
+    background-color: #8458B3;
+    padding: 15px;
+    width: 340px;
+    color: white;
+    margin-left:-20px;
+    margin-top:-70px;
+    height: auto; /* Set height to auto */
+    min-height: 100vh; /* Set a minimum height to avoid collapsing */
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+}
+.sidebar-items ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-items a {
+    text-decoration: none;
+    font-size:150%;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+    transition: all 0.3s;
+}
+
+.sidebar-items a:hover {
+    background-color: #9541ef;
+}
+
+.sidebar-items i {
+    margin-right: 10px;
+}
+.menu{
+    z-index:1;
+    height:10vh;
+ position:relative;   
+ 
+  margin-right:-30px;
+  width:100%;
+}
+.menu-items{
+    margin-right:140px;
+}
+
+.menu-item{
+    font-size:125%;
+    margin-left:20px;
+}
+
+.background{
+    position:relative;
+    z-index:5;
+    height:100vh;
+    display:flex;
+    align-items:center;/* Vertically centre the child div */
+    justify-content:center;/* Horizontally centre the child div */
+}
+
+.sidebar-items{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:95px;
+  
+}
+
+.highlight-purple{
+    background-color: #9541ef;
+}

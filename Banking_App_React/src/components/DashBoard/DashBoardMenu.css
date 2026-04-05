@@ -1,0 +1,19 @@
+.menu{
+    position:sticky;
+    z-index:1;
+}
+.menu-items{
+    margin-right:140px;
+}
+
+.menu-item{
+    font-size:125%;
+    margin-left:20px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+.deposit-card{
+    position:absolute;
+    background-color:#F8F9FA;
+    border-radius: 10px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    z-index:5;
+    width:490px;
+    height:350px;
+    align-items:center;
+    margin-left:40%;
+    top:180px;
+}
+
+.deposit-card h2{
+    font-family: 'Playfair Display', serif;
+    text-align:center;
+    
+}

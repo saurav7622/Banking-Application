@@ -1,0 +1,4 @@
+.container-fluid {
+    display: flex;
+    height: 100vh;
+}

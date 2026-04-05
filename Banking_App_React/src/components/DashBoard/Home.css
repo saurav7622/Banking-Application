@@ -1,0 +1,46 @@
+.background{
+    position:relative;
+    height:100vh;
+     background-color:#a0d2eb; 
+    display:flex;
+    align-items:center;/* Vertically centre the child div */
+    justify-content:center;/* Horizontally centre the child div */
+}
+
+
+.my-account-card{
+    position:relative;
+    background-color:#ffb347;
+    width:40%;
+    height:42vh;
+    border-radius: 10px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    list-style-type:none;
+}
+
+.my-account-card header{
+    font-family: 'Playfair Display', serif;
+    display:flex;
+    flex-direction:row;
+    gap:150px;
+    
+}
+
+.header-item1{
+    position:relative;
+    margin-left:10px;
+    text-align:left;
+    color:white;
+}
+
+.header-item2{
+    position:relative;
+    text-align:right;
+    color:white;
+}
+
+.account-info-card{
+    margin-top:30px;
+    text-align:center;
+    color:white;
+}
